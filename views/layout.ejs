@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Jumbotron Template for Bootstrap</title>
+    <!--<link rel="stylesheet" href="/css/bootstrap.min.css">-->
+    <Link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <Link rel="stylesheet" href="/css/custom.css">
+  </head>
+
+  <body>
+
+    <% include ./partials/navbar %>
+
+    <main role="main">
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+        <!-- Example row of columns -->
+        <%- body -%>
+
+
+    </main>
+
+    <% include ./partials/footer %>
+    <% include ./partials/javascriptOnly %>
+
+  </body>
+</html>
+
